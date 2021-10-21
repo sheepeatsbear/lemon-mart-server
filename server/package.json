@@ -10,8 +10,8 @@
   "config": {
     "imageRepo": "duluca/lemon-mart-server",
     "imageName": "lemon-mart-server",
-    "imagePort": "3000",
-    "internalContainerPort": "3000"
+    "imagePort": "3001",
+    "internalContainerPort": "3001"
   },
   "scripts": {
     "style:fix": "import-sort --write \"{src,tests}/**/*.ts\" && prettier --write \"{src,tests}/**/*.ts\"",

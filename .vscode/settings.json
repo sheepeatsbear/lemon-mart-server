@@ -32,7 +32,7 @@
 
   "typescript.tsdk": "node_modules/typescript/lib",
 
-  "workbench.iconTheme": "material-icon-theme",
+  // "workbench.iconTheme": "material-icon-theme",
 
   "auto-close-tag.SublimeText3Mode": true,
   "html.autoClosingTags": false,
@@ -45,17 +45,5 @@
   "gitlens.menus": {
     "editorGroup": false
   },
-  "ng-evergreen.upgradeChannel": "Latest",
-  "workbench.colorCustomizations": {
-    "activityBar.background": "#5a71fa",
-    "activityBar.activeBackground": "#5a71fa",
-    "activityBar.activeBorder": "#fca2af",
-    "activityBar.foreground": "#e7e7e7",
-    "activityBar.inactiveForeground": "#e7e7e799",
-    "activityBarBadge.background": "#fca2af",
-    "activityBarBadge.foreground": "#15202b",
-    "statusBar.background": "#2946f8",
-    "statusBarItem.hoverBackground": "#5a71fa",
-    "statusBar.foreground": "#e7e7e7"
-  }
+  "ng-evergreen.upgradeChannel": "Latest"
 }

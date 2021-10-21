@@ -6,7 +6,7 @@
   "config": {
     "awsRegion": "us-east-1",
     "awsEcsCluster": "lemon-mart-cluster",
-    "webAppGitUrl": "https://github.com/duluca/lemon-mart.git",
+    "webAppGitUrl": "https://github.com/sheepeatsbear/lemon-mart.git",
     "awsService": "lemon-mart-service"
   },
   "scripts": {
