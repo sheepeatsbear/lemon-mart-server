@@ -14,6 +14,7 @@
     "internalContainerPort": "3001"
   },
   "scripts": {
+    "fix": "npm run style:fix && npm run lint:fix",
     "style:fix": "import-sort --write \"{src,tests}/**/*.ts\" && prettier --write \"{src,tests}/**/*.ts\"",
     "style": "import-sort -l \"{src,tests}/**/*.ts\" && prettier --check \"{src,tests}/**/*.ts\"",
     "lint": "tslint --config tslint.json --project .",
