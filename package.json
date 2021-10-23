@@ -12,7 +12,7 @@
   "scripts": {
     "init:env": "init-dev-env generate-dot-env example.env -f && init-dev-env generate-dot-env server-example.env --source=. --target=server -f",
     "postinstall": "npm-recursive-install --skip-root",
-    "build": "npm run build --prefix ./server && npm run build --prefix ./web-app -- --configuration=lemon-mart-server",
+    "build": "npm run build --prefix ./server && npm run build --prefix ./web-app",
     "test": "npm test --prefix ./server && npm test --prefix ./web-app -- --watch=false",
     "prestart": "npm run build && docker-compose build",
     "start": "docker-compose up",
@@ -60,6 +60,5 @@
     "recursive-install": "^1.4.0",
     "rimraf": "^3.0.2",
     "typescript": "^3.8.3"
-  },
-  "dependencies": {}
+  }
 }

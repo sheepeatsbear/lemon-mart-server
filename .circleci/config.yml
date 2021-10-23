@@ -76,9 +76,9 @@ jobs:
 
       - run: npm run style
       - run: npm run lint
-      - run: npm run build -- --configuration=lemon-mart-server
+      - run: npm run build
       - run: npm test -- --watch=false --code-coverage
-      - run: npm run e2e
+      # - run: npm run e2e
 
       - store_test_results:
           path: ./test_results
