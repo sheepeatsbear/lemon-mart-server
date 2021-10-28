@@ -32,8 +32,8 @@ describe('Integration', () => {
     let actualException = null
 
     const userData: Partial<IUser> = {
-      name: { first: 'Doguhan', last: 'Uluca' },
-      email: 'duluca@gmail.com',
+      name: { first: 'Test', last: 'Test' },
+      email: 'test@test.com',
       role: Role.Manager,
     }
 
@@ -56,7 +56,7 @@ describe('Integration', () => {
       for (let i = 0; i < expectedRecordCount; i++) {
         const userData: Partial<IUser> = {
           name: { first: `${i}`, last: `${i}` },
-          email: `${i}@gmail.com`,
+          email: `${i}@test.com`,
           role: Role.Manager,
         }
         const user = new User(userData)

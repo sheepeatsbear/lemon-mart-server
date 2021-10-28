@@ -12,7 +12,7 @@ let mongoServerInstance: MongoMemoryServer
 jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000
 
 const defaultUser: Partial<IUser> = {
-  email: 'duluca@gmail.com',
+  email: 'test@test.com',
 }
 
 const defaultUserId = '5da01751da27cc462d265913'
